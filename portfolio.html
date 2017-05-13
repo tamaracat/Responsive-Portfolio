@@ -5,50 +5,57 @@
   <title>Tamara Tangney</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" media="(max-width: 980px)" href="assets/css/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-<div class = "container_header">
-  <div class="container_in_header">
-      <h1>Tamara Tangney<h1> 
-  </div>
-  <div class="sidebar_container">
-    <div class="right">
-      <a href="about.html" target="">About</a>
-      <a href="portfolio.html" target="">Portfolio</a>
-      <a href="contact.html" target="">Contact</a>
-      </div>
-  </div>
-  </div>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Tamara Tangney</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-   <div class="container_main">
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+        <div class="work">
+    	   <img class = "Portfolio_Image" src = "assets/images/tam_full_stack.jpg" alt = "Full Stack Dev"> 
+          <h3>Full Stack Dev</h3>
+          </div>
+          <div class="work">
+    	     <img class = "Portfolio_Image" src= "assets/images/tam_hockey.jpg" alt = "Ice Hockey">
+          <h3>Ice Hockey</h3>
+          </div>
+            <div class="work">
+            <img class = "Portfolio_Image" src= "assets/images/georgia.jpeg" alt = "Artist">
+          <h3>Artist</h3>
+        </div>
+  </section>
 
-      <div class="container_connect_with_me">
-        <h2>Connct With Me</h2> 
-      <aside>
+  <section class="sidebar">
+      <div id="connect">
+      <h2>Connct With Me</h2> 
+      
           <a href = "https://www.linkedin.com/in/tamaractangney/">
           <img class = "icon_Image" src="assets/images/linked_in.png">
           <a href = "https://stackoverflow.com/users/7911088/tamara-tangney">
           <img class = "icon_Image" src="assets/images/stack_over.png">
           <a href = "https://github.com/tamaracat">
           <img class = "icon_Image" src="assets/images/github-icon.png"></a>
-    
-      </aside>
-      </div>
-
-  <section class="inside_container">
-  
-    	<img class = "Portfolio_Image" src = "assets/images/tam_full_stack.jpg"> 
-    	<img class = "Portfolio_Image" src= "assets/images/tam_hockey.jpg">
-      <img class = "Portfolio_Image" src= "assets/images/georgia.jpeg">
-  	
-  </section>
-
-<div class="division"></div>
-
-<footer>
-<div>Copyright 2017 Tamara Tangney</div>
+        </div>
+    </section>
+  </div>
+      
+  <footer>
+    <div class="container">
+      <div>Copyright &copy; 2017 Tamara Tangney</div>
+    </div>
   </footer>
-
 </body>
 </html>
